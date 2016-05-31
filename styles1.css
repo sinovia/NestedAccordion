@@ -10,6 +10,7 @@ button {
   background-color: white;
   text-decoration: none;
   border: none;
+  outline: none;
 }
 
 .dropDownMainhidden {
@@ -53,13 +54,11 @@ button {
 .secclickable {
   background-color: white;
   border: none;
-
 }
 
 .firstsection {
   width: 850px;
   margin-left: 200px;
-  margin-top: 220px;
   width: 1045px;
 }
 .supportmain {
