@@ -1,18 +1,54 @@
-//Oat Cake Button Drop
-document.getElementById("dropItLikeItsHot").addEventListener("click", function(){
-    document.getElementsByClassName("dropDownMainhidden")[0].className="dropDownMainshowing"});
 
+//Top Level Accordion Actions//
+$(".mainPastry").on('click', function() {
+      $(".mainPastrycollapse").toggleClass("showing"); //you can list several class names
+    });
 
-  //Donut Pastry Button
-document.getElementById("dropItLikeItsHot2").addEventListener("click", function(){
-    document.getElementsByClassName("dropDownMainhidden2")[0].className="dropDownMainshowing2"});
+    $(".gummibears").on('click', function() {
+          $(".gummiBearsCollapse").toggleClass("showing"); //you can list several class names
+        });
 
-//Carrot Cake Button
-document.getElementById("dropItLikeItsHot3").addEventListener("click", function(){
-    document.getElementsByClassName("dropDownMainhidden3")[0].className="dropDownMainshowing3"});
+        $(".soJelly").on('click', function() {
+              $(".soJellyCollapse").toggleClass("showing"); //you can list several class names
+            });
 
-//Tootsie
-    document.getElementById("dropItLikeItsHot4").addEventListener("click", function(){
-        document.getElementsByClassName("dropDownMainhidden4")[0].className="dropDownMainshowing4"});
+  //Secondary Level Accordion Actions//
+  $(".donut").on('click', function() {
+        $(".donutCollapse").toggleClass("showing"); //you can list several class names
+      });
 
-  Initial Commit Test
+  $(".carrotCake").on('click', function() {
+      $(".carrotCakeCollapse").toggleClass("showing"); //you can list several class names
+      });
+
+$(".marshmallow").on('click', function() {
+  $(".marshmallowCollapse").toggleClass("showing"); //you can list several class names
+    });
+
+    $(".cookie").on('click', function() {
+      $(".cookieCollapse").toggleClass("showing"); //you can list several class names
+        });
+
+        $(".biscuit").on('click', function() {
+          $(".biscuitCollapse").toggleClass("showing"); //you can list several class names
+            });
+
+            $(".macaroon").on('click', function() {
+              $(".macaroonCollapse").toggleClass("showing"); //you can list several class names
+                });
+
+                $(".lollipop").on('click', function() {
+                  $(".lollipopCollapse").toggleClass("showing"); //you can list several class names
+                    });
+
+  $(".toffee").on('click', function() {
+      $(".toffeeCollapse").toggleClass("showing"); //you can list several class names
+        });
+
+        $(".subtitle").on('click', function() {
+            $(".subtitleCollapse").toggleClass("showing"); //you can list several class names
+              });
+
+              $(".pie").on('click', function() {
+                  $(".pieCollapse").toggleClass("showing"); //you can list several class names
+                    });

@@ -1,94 +1,291 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Revenge of the Nested Accordion!</title>
 
     <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="/Users/Czechosinovia/Desktop/font-awesome-4.6.3/css/font-awesome.css">
-    <link rel= "stylesheet" href="styles1.css">
-  </head>
-  <body>
-<!--Header-->
-<div class="firstsection">
-    <ul>
-      <li>
-        Change
-<!--Oat Cake Button-->
-          <button id= "dropItLikeItsHot" ><label class="mainclickable">
-                 <h3 class="mainPastry"> <i class="fa fa-arrow-right" aria-hidden="true">
-                 </i> Oat cake tootsie roll</h3> </label>
-      </li></button>
-      <!--First Paragraph-->
-      <div class="dropDownMainhidden">
-        <ul>
-            <li>
-                <p class="supportmain">Jelly sweet roll dragée gummies. Jelly-o cotton candy gingerbread. Dessert tart bear claw gummi bears
-                                      I love oat cake cotton candy sesame snaps carrot cake. Croissant marshmallow tiramisu icing soufflé chocolate cake.
-                                      I love pie icing. Sweet I love sweet roll cheesecake dessert. Tiramisu gingerbread I love.
-                                      Muffin chocolate cake powder cheesecake oat cake tootsie roll candy soufflé.
-                                      Brownie toffee powder tiramisu. Wafer I love jujubes croissant.
-                                      Chocolate cake candy jujubes tootsie roll bonbon toffee I love. Topping candy jelly-o.
-                                      Halvah faworki I love I love toffee pastry icing chupa chups. Pie gingerbread candy canes oat cake.</p>
-                                    </li>
-              <ul>
-              </li>
-    <!--Donut Pastry-->
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Users/Czechosinovia/Desktop/TIY Assignments/NestedAccordion/styles1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- .container is main centered wrapper -->
+    <div class="container">
+      <p class="header"> The Revenge of the Nested Accordion </p>
+        <div class="row">
+            <div class="eleven columns">
+
+                <!--Oat Cake Button-->
+            <ul>
+                <li>
+
+                        <h3 class="mainPastry"> <i class="fa fa-arrow-right" aria-hidden="true">
+                        </i> Oat cake tootsie roll</h3>
+                </li>
+                    </li>
+                </button>
+                <!--First Paragraph-->
+                <div class="mainPastrycollapse">
+                    <ul>
+                        <li>
+                            <p class="supportmain">Jelly sweet roll dragée gummies. Jelly-o cotton candy gingerbread. Dessert tart bear claw gummi bears I love oat cake cotton candy sesame snaps carrot cake. Croissant marshmallow tiramisu icing soufflé chocolate cake. I love
+                                pie icing. Sweet I love sweet roll cheesecake dessert. Tiramisu gingerbread I love. Muffin chocolate cake powder cheesecake oat cake tootsie roll candy soufflé. Brownie toffee powder tiramisu. Wafer I love jujubes croissant.
+                                Chocolate cake candy jujubes tootsie roll bonbon toffee I love. Topping candy jelly-o. Halvah faworki I love I love toffee pastry icing chupa chups. Pie gingerbread candy canes oat cake.
+                            </p>
+                        </li>
+                      </ul>
+                      <!--Donut Pastry-->
                   <li>
 
-                      <button id="dropItLikeItsHot2"><label class="mainclickable">
-                        <span class="pastrylisting">
+                        <h3 class="donut">
                           <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                          Donut Pastry</></li></span></button>
-                          <div class= "dropDownMainhidden2">
+                          Donut Pastry</></li></h3>
+                          <div class= "donutCollapse">
                       <ul>
                           <li>
-
-                            <p class="listingtext">Gingerbread cotton candy halvah gingerbread. Apple pie wypas liquorice I love chocolate cake I love.
+                              <p class="listingtext">Gingerbread cotton candy halvah gingerbread. Apple pie wypas liquorice I love chocolate cake I love.
                                                     Jelly cotton candy wypas lemon drops. Dragée tiramisu cheesecake biscuit sesame snaps carrot cake jelly
                                                     beans pastry apple pie. Chocolate cake cotton candy candy canes brownie ice cream. Muffin chocolate cake
                                                    jelly-o cake pudding. Jujubes I love cookie. I love cupcake I love bear claw sweet croissant. Wypas bonbon
                                                    chocolate cake bonbon bear claw gummies. Liquorice danish jelly tootsie roll. I love danish icing lemon drops
                                                     dessert pie jujubes. Fruitcake wafer I love biscuit. Donut pastry apple pie sugar plum soufflé ice cream tart
                                                     bonbon candy.
-                            </p> </div>
+                            </p>
+                          </div>
                           </li>
-                      </ul>
-    <!--Carrot Cake Button-->
                   <li>
-                    <button id="dropItLikeItsHot3"><label class="mainclickable">
-                            <span class="pastrylisting">
-                              <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                                Carrot Cake </li></span></button>
-                                <div class= "dropDownMainhidden3">
+
+                    <!--Carrot Cake Button-->
+            <li>
+               <li>
+
+                         <span class="carrotCake">
+                           <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                             Carrot Cake </li></span></button>
+                             <div class= "carrotCakeCollapse">
+                   <ul>
+                     <li>
+                       <p class="listingtext">Wafer muffin cupcake apple pie tootsie roll I love. Carrot cake apple pie I love dessert. I love carrot cake
+                                               lollipop jelly jelly-o brownie cake. Croissant brownie donut gingerbread dessert icing.
+                                               Sugar plum jelly candy pudding liquorice liquorice cotton candy pie. Powder sesame snaps I love
+                                               chocolate bar bonbon. Pudding gummi bears donut applicake carrot cake I love I love icing cake.
+                       </p>
+
+                     </li>
+                     </div>
+                     <li>
+
+                       <li>
+                          <li>
+
+                                    <span class="marshmallow">
+                                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                        TOOTSIE ROLL MARSHMALLOW </li></span></button>
+                                        <div class= "marshmallowCollapse">
+                              <ul>
+                                <li>
+                                  <p class="listingtext">I love tootsie roll marshmallow. Halvah jelly bear claw lemon drops lollipop.
+                                    Brownie tiramisu I love I love halvah wafer. Powder jelly beans sesame snaps. Powder biscuit I love
+                                    wypas soufflé apple pie marzipan. Cheesecake apple pie halvah croissant jelly I love.
+                                  </p>
+                                </div>
+                                </li>
+                                <li>
+                   </ul>
+
+                 </li>
+                      </ul>
+
+                      <!--Cream Gummi Bears Button-->
                       <ul>
+                      <li>
+
+                              <h3 class="gummibears"> <i class="fa fa-arrow-right" aria-hidden="true">
+                              </i> Cream gummi bears</h3>
+                      </li>
+                          </li>
+
+                      <!--First Paragraph-->
+                      <div class="gummiBearsCollapse">
+                          <ul>
+                              <li>
+                                  <p class="supportmain">Cotton candy chocolate cake macaroon applicake I love. Tart soufflé I love powder.
+                                    I love tiramisu lollipop pie. Pudding gummi bears sweet. Candy chocolate I love jujubes pie donut. Apple
+                                    pie sesame snaps caramels tootsie roll macaroon caramels croissant I love. Sweet roll chocolate lemon drops.
+                                     I love I love muffin gummi bears I love cotton candy.
+                                  </p>
+                              </li>
+                            </ul>
+                            <!--Cookie Ice Cream-->
                         <li>
-                          <p class="listingtext">Wafer muffin cupcake apple pie tootsie roll I love. Carrot cake apple pie I love dessert. I love carrot cake
-                                                  lollipop jelly jelly-o brownie cake. Croissant brownie donut gingerbread dessert icing.
-                                                  Sugar plum jelly candy pudding liquorice liquorice cotton candy pie. Powder sesame snaps I love
-                                                  chocolate bar bonbon. Pudding gummi bears donut applicake carrot cake I love I love icing cake.
-                          </p></div>
-                        </li>
-                      </ul>
-  <!--Tootsie Roll Marshmallow Button-->
-                  <li>
-                      <button id="dropItLikeItsHot4"><label class="mainclickable">
-                        <span class="pastrylisting">
-                          <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                              Tootsie Roll Marshmallow</li></span></button>
 
-                        <div class= "dropDownMainhidden4">
-                      <ul>
-                        <li><p class="listingtext">I love tootsie roll marshmallow. Halvah jelly bear claw lemon drops lollipop. Brownie tiramisu
-                                                   I love I love halvah wafer. Powder jelly beans sesame snaps. Powder biscuit I love wypas soufflé
-                                                  apple pie marzipan. Cheesecake apple pie halvah croissant jelly I love.
-                            </p></div>
-                        </li>
-                      </ul>
-                      </ul>
-        </ul>
+                              <span class="cookie">
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                              COOKIE ICE CREAM</></li></span></button>
+                                <div class= "cookieCollapse">
+                            <ul>
+                                <li>
+                                    <p class="listingtext">Liquorice jelly-o oat cake gingerbread chocolate caramels chupa chups muffin candy.
+                                      I love dessert biscuit halvah lemon drops. Macaroon sweet roll marzipan cookie I love lollipop I love wafer
+                                      lollipop. Caramels candy pudding brownie. Oat cake cake gingerbread bear claw croissant dessert. Lemon drops
+                                      oat cake sugar plum wypas cupcake fruitcake liquorice. Muffin wafer tootsie roll caramels. I love brownie powder
+                                      icing marzipan dragée. Pie fruitcake soufflé sweet roll faworki candy canes I love. Jelly-o carrot cake donut cheesecake.
+                                  </p>
+                                </div>
+                                </li>
+                        <li>
 
-          Initial Commit Test
-<script src="accordion.js"></script>
-      </body>
-    </html>
+                          <!--Biscuit-->
+                      <li>
+                      <li>
+
+                               <span class="biscuit">
+                                 <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                   BISCUIT CHUPA CHUPS TART </li></span>
+                                   <div class= "biscuitCollapse">
+                         <ul>
+                           <li>
+                             <p class="listingtext">Sweet muffin fruitcake. Marshmallow dessert gummies dragée. Dragée pudding caramels toffee I love I love.
+                               Pie candy canes soufflé candy jelly-o marshmallow marshmallow. Biscuit danish jelly beans lollipop sweet sesame snaps oat cake.
+                               I love chupa chups cake ice cream ice cream applicake tart. Dessert muffin chocolate bar.
+                             </p>
+                           </div>
+                           </li>
+                           <li>
+  <!--Chocolate Tart Macaroon-->
+                             <li>
+                                <li>
+
+                                          <span class="macaroon">
+                                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                              CHOCOLATE TART MACAROON </li></span>
+                                              <div class= "macaroonCollapse">
+                                    <ul>
+                                      <li>
+                                        <p class="listingtext">Faworki oat cake cotton candy cookie ice cream gummi bears. Ice cream bear claw icing macaroon apple
+                                          pie caramels. Sugar plum applicake candy canes sesame snaps I love. Sugar plum brownie biscuit tiramisu marzipan. Ice cream
+                                          I love sweet bear claw I love sweet cake tart. Danish marshmallow I love wypas pastry. Chocolate tart macaroon wypas sesame
+                                          snaps apple pie chocolate sesame snaps. Cotton candy sweet roll pudding oat cake I love marzipan wafer chocolate cake.
+                                        </p>
+                                      </div>
+                                      </li>
+
+                                      <li>
+
+                                                <span class="lollipop">
+                                                  <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                                    LOLLIPOP LIQUORICE </li></span>
+                                                    <div class= "lollipopCollapse">
+                                          <ul>
+                                            <li>
+                                              <p class="listingtext">Cookie ice cream sweet I love cupcake. Fruitcake topping wafer.
+                                                                    Lollipop liquorice I love tart wypas biscuit. Danish jelly-o gingerbread.
+                                                                    Faworki jelly pastry. Wypas wypas topping I love I love candy canes liquorice.
+                                                                    I love sweet roll fruitcake dragée wafer icing bonbon.
+                                            </div>
+                                            </li>
+                                      <li>
+                         </ul>
+
+                       </li>
+                            </ul>
+
+
+                            <!--Jelly Marzipan-->
+                          <ul>
+                            <li>
+                                    <h3 class="soJelly"> <i class="fa fa-arrow-right" aria-hidden="true">
+                                    </i> Jelly marzipan sugar plum</h3>
+                            </li>
+                                </li>
+                            <!--First Paragraph-->
+                            <div class="soJellyCollapse">
+                                <ul>
+                                    <li>
+                                        <p class="supportmain">Jujubes bonbon oat cake. Cookie cookie liquorice bear claw pudding jelly-o. Sugar plum oat cake cookie.
+                                          Sweet pudding tiramisu. Donut bear claw marshmallow tootsie roll I love lollipop icing. Candy chocolate bar biscuit cake tart
+                                          candy donut. Carrot cake tiramisu carrot cake I love chocolate cake cake pastry carrot cake faworki. Jujubes marzipan carrot cake
+                                           lemon drops dragée cake fruitcake macaroon dessert. Cotton candy I love icing powder. Gummies marzipan biscuit I love I love pudding.
+                                        </p>
+                                    </li>
+                                  </ul>
+                                  <!--Toffee Souffle-->
+                              <li>
+                                    <span class="toffee">
+                                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                      TOFFEE SOUFFLÉ CHOCOLATE BAR</></li></span></button>
+                                      <div class= "toffeeCollapse">
+                                  <ul>
+                                      <li>
+                                          <p class="listingtext">Gingerbread cotton candy halvah gingerbread. Apple pie wypas liquorice I love chocolate cake I love.
+                                                                Jelly cotton candy wypas lemon drops. Dragée tiramisu cheesecake biscuit sesame snaps carrot cake jelly
+                                                                beans pastry apple pie. Chocolate cake cotton candy candy canes brownie ice cream. Muffin chocolate cake
+                                                               jelly-o cake pudding. Jujubes I love cookie. I love cupcake I love bear claw sweet croissant. Wypas bonbon
+                                                               chocolate cake bonbon bear claw gummies. Liquorice danish jelly tootsie roll. I love danish icing lemon drops
+                                                                dessert pie jujubes. Fruitcake wafer I love biscuit. Donut pastry apple pie sugar plum soufflé ice cream tart
+                                                                bonbon candy.
+
+
+                                        </p>
+                                      </div>
+                                      </li>
+                              <li>
+
+                                <!--SUBTITLE-->
+                          <li>
+                           <li>
+
+                                     <span class="subtitle">
+                                       <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                         SUBTITLE </li></span>
+                                         <div class= "subtitleCollapse">
+                               <ul>
+                                 <li>
+                                   <p class="listingtext">Wafer muffin cupcake apple pie tootsie roll I love. Carrot cake apple pie I love dessert. I love carrot cake
+                                                           lollipop jelly jelly-o brownie cake. Croissant brownie donut gingerbread dessert icing.
+                                                           Sugar plum jelly candy pudding liquorice liquorice cotton candy pie. Powder sesame snaps I love
+                                                           chocolate bar bonbon. Pudding gummi bears donut applicake carrot cake I love I love icing cake.
+                                   </p>
+                                 </div>
+                                 </li>
+                                 <li>
+
+                                   <li>
+                                      <li>
+
+                                                <span class="pie">
+                                                  <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                                    PIE WAFER BROWNIE </li></span></button>
+                                                    <div class= "pieCollapse">
+                                          <ul>
+                                            <li>
+                                              <p class="listingtext">Macaroon I love faworki halvah lollipop croissant chocolate cake lemon drops cheesecake. Croissant cookie
+                                                 halvah tiramisu powder tootsie roll applicake lemon drops. Ice cream jelly powder I love candy canes biscuit gingerbread jelly
+                                                 I love. Sugar plum marshmallow marzipan bear claw cookie. Jelly-o I love cake danish I love. Wypas donut dessert. I love carrot cake oat cake I love I love lollipop donut. Pie wafer brownie. Cake toffee marshmallow I love I love jelly-o.
+                                              </p>
+                                            </div>
+                                            </li>
+                                            <li>
+                               </ul>
+
+                             </li>
+                                  </ul>
+
+
+
+
+
+                </div>
+
+
+
+
+                    <script src="accordion.js"></script>
+</body>
+
+</html>

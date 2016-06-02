@@ -1,80 +1,78 @@
-ul {
-  list-style: none;
+.eleven.columns {
+   width: 91.3333333333%;
+ }
+
+ .row
+ {margin-left: 30px;
 }
 
-body {
-  font-family: sans-serif;
-}
+ ul {
+   list-style: none;
+ }
 
-button {
-  background-color: white;
-  text-decoration: none;
-  border: none;
-  outline: none;
-}
+ li {
+   list-style: none;
+ }
 
-.dropDownMainhidden {
+ body {
+   font-family: sans-serif;
+ }
+
+ button {
+   background-color: white;
+   text-decoration: none;
+   border: none;
+   outline: none;
+ }
+
+ .header {
+   font-family: "Indie Flower";
+   font-size: 80px;
+   text-align: center;
+   margin-top: 10px;
+   width: 100%;
+   color: #47a3da;
+ }
+
+.mainPastrycollapse, .gummiBearsCollapse, .soJellyCollapse, .donutCollapse, .carrotCakeCollapse, .marshmallowCollapse
+,.cookieCollapse, .biscuitCollapse, .macaroonCollapse, .lollipopCollapse, .toffeeCollapse, .subtitleCollapse, .pieCollapse{
   display: none;
 }
 
-.dropDownMainshowing {
-}
+ .showing {
+   display: block;
+ }
 
-.dropDownMainhidden2 {
-  display: none;
-}
+ .hidden {
+   display: none;
+ }
 
-.dropDownMainshowing2 {
-}
-
-.dropDownMainhidden3 {
-  display: none;
-}
-
-.dropDownMainshowing3 {
-}
-
-.dropDownMainhidden4 {
-  display: none;
-}
-
-.dropDownMainshowing4 {
-}
-
-
-.mainPastry {
+ .mainPastry,  .gummibears, .soJelly {
   background-color: white;
   border: none;
   font-size:40px;
   font-weight:lighter;
   color: #47a3da;
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #DDDDDD;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
-.secclickable {
-  background-color: white;
-  border: none;
+.donut, .carrotCake, .marshmallow, .cookie, .biscuit, .macaroon, .lollipop, .toffee, .subtitle, .pie {
+  font-size: 19px;
+  color: #47a3da;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 25px;
 }
 
-.firstsection {
-  width: 850px;
-  margin-left: 200px;
-  width: 1045px;
-}
 .supportmain {
   font-size: 20px;
   color: #888888;
   font-weight: 100;
   margin-left: 76px;
   line-height: 30px;
-}
-
-.pastrylisting {
-  font-size: 19px;
-  color: #47a3da;
-  margin-left: 115px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
 }
 
 .listingtext{
@@ -86,12 +84,12 @@ button {
 }
 
 .fa-arrow-right{
-  color: #888888;
+  color: #ddd;
   opacity: 50%;
 }
 
 .fa-arrow-right:hover{
-  color: #888888;
+  color: #ddd;
   -webkit-transition-property: color, transform;
   transition-duration: 0s;
   color:#47a3da;
@@ -99,7 +97,7 @@ button {
 }
 
 .fa-arrow-circle-o-right {
-  color:#888888;
+  color:#ddd;
 }
 
 .fa-arrow-circle-o-right:hover {
@@ -110,7 +108,40 @@ button {
 }
 
 .fa-arrow-down {
-  color: #888888;
+  color: #ddd;
 }
 
-  Initial Commit Test
+/* Grid from Skeleton Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin-left: 60px;
+  padding: 0 80px;
+  box-sizing: border-box;
+  }
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
